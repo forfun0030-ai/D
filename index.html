@@ -1077,7 +1077,7 @@ body{
 // 🔒 UNLOCK DATE: June 9, 2026 (Dalal's Birthday Gift)
 // The website will only open on this date
 // ============================================================
-const TARGET_DATE = new Date('2026-06-09T00:00:00').getTime();
+const TARGET_DATE = new Date(Date.now() - 1000).getTime();
 
 const $ = id => document.getElementById(id);
 
