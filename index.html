@@ -136,16 +136,6 @@ body{
   font-family:'Caveat',cursive;font-size:20px;
 }
 .password-error.show{opacity:1}
-.password-clue{
-  margin-top:30px;font-family:'Caveat',cursive;font-size:20px;font-weight:700;
-  color:rgba(255,255,255,0.5);
-  padding:15px 25px;
-  background:rgba(255,107,157,0.08);
-  border:1px dashed rgba(255,107,157,0.3);
-  border-radius:15px;
-  display:inline-block;
-}
-.password-clue strong{color:#ff6b9d}
 @keyframes shake-input{
   0%,100%{transform:translateX(0)}
   20%{transform:translateX(-12px)}
@@ -801,7 +791,7 @@ body{
   <p class="entrance-hint">Tap to begin</p>
 </div>
 
-<!-- 🔐 PASSWORD OVERLAY -->
+<!-- 🔐 PASSWORD OVERLAY (NO HINT) -->
 <div id="password-overlay">
   <div class="password-box">
     <div class="password-lock">🔐</div>
@@ -815,7 +805,6 @@ body{
     </div>
     <button id="password-submit">Unlock My Gift 💝</button>
     <p class="password-error" id="password-error">That's not my birthday, Dalal 🥺 Try again!</p>
-    <p class="password-clue">Hint: The boy who made this for you was born in <strong>April 2005</strong> 🌷</p>
   </div>
 </div>
 
